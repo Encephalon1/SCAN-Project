@@ -3,13 +3,18 @@
     src: url('Inter-Regular.otf')
 }
 
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+    position: relative;
+    display: block;
     height: 137px;
     width: 100%;
     background: #029491;
+    margin-top: 20px;
 }
 
 .Logo {
@@ -42,7 +47,7 @@ footer {
     }
 
     .foot_text {
-        margin-right: 25px;
+        margin-right: 15px;
         margin-top: 15px;
         font-size: 11px;
     }
