@@ -5,7 +5,6 @@ import logo from './logo2.svg'
 const Footer = () => {
   return (
     <footer>
-      <div className='foot'>
       <img src={logo} class="Logo" />
       <p class="foot_text">
         г. Москва, Цветной б-р, 40<br />
@@ -14,9 +13,9 @@ const Footer = () => {
         <br />
         Copyright, 2022
       </p>
-      </div>
     </footer>
   )
 }
 
 export default Footer
+
